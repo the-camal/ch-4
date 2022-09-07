@@ -1,9 +1,9 @@
 :root {
-    background-color: rgb(4, 38, 81);
+    background-color: rgb(194, 196, 198);
     font-size: 62.5%;
 }
 
-* {
+*{
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -14,6 +14,87 @@
 h1,
 h2,
 h3,
-h4, {
+h4 {
 margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 54px;
+    color: rgb(209, 73, 23);
+    margin: bottom 5rem;
+}
+h1 > span {
+    font-size: 24px;
+    font-weight:400 ;
+
+}
+h2{
+    font-size: 46px;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+}
+h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.cont {
+    width: 130vw;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+
+}
+
+.cont > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.tet-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* buttoms */
+
+.btn {
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.2rem solid #0e3531;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(224, 89, 12);
+    background-color: rgb(221, 219, 229);
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: rgb(62, 22, 6);
+    transform: translate(-0.2rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }

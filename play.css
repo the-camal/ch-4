@@ -1,0 +1,22 @@
+.choice-cont {
+    display: flex;
+    margin-bottom: 6px;
+    width: 100%;
+    font-size: medium;
+    border: 2px solid blueviolet(86, 165, 235, 0.25);
+    background-color: rgb(230, 135, 10);
+}
+.choice-cont:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 14px 0 brown;
+    transition: transform 150ms;
+}
+.choice-prefix {
+    padding: 15px 25px;
+    background-color: brown;
+    color: orange;
+}
+
+.choice-text {
+    padding: 15px;
+}
