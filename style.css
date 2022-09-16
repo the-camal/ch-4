@@ -32,6 +32,7 @@ h2{
     font-size: 46px;
     margin-bottom: 40px;
     font-weight: 600;
+    color: red;
 
 }
 h3{
@@ -64,7 +65,7 @@ h3{
     justify-content: center;
 }
 
-.tet-center {
+.text-center {
     text-align: center;
 }
 

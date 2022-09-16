@@ -1,9 +1,9 @@
 .choice-cont {
     display: flex;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     width: 100%;
     font-size: medium;
-    border: 2px solid blueviolet(86, 165, 235, 0.25);
+    border: 2px solid rgb(86, 165, 235, 0.25);
     background-color: rgb(230, 135, 10);
 }
 .choice-cont:hover {
@@ -19,4 +19,5 @@
 
 .choice-text {
     padding: 15px;
+    width: 100%;
 }
