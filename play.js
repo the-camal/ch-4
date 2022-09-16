@@ -10,47 +10,47 @@ let availablequestions = [
 
 
     {
-        questions: "what is the ",
-        choice1: "<choise 1>",
-        choice2: "<choise 2>",
-        choice3: "<choise 3>",
-        choice4: "<choise 4>",
+        questions: "how do you style a site ?",
+        choice1: "< css >",
+        choice2: "< java >",
+        choice3: "< html >",
+        choice4: "< style >",
         answer: 1
     },
 
     {
-        questions: "inside 2is a question",
-        choice1: "<choise 1>",
-        choice2: "<choise 2>",
-        choice3: "<choise 3>",
-        choice4: "<choise 4>",
+        questions: " how do you set a image ?",
+        choice1: "< back ground >",
+        choice2: "<img>",
+        choice3: "<a>",
+        choice4: "<p>",
         answer: 2
     },
 
     {
-        questions: "inside3 is a question",
-        choice1: "<choise 1>",
-        choice2: "<choise 2>",
-        choice3: "<choise 3>",
-        choice4: "<choise 4>",
+        questions: "when is your header ?",
+        choice1: "< on your css>",
+        choice2: "<on your html>",
+        choice3: "<on your java>",
+        choice4: "<on your java script>",
         answer: 3
     },
 
     {
-        questions: "inside 4is a question",
-        choice1: "<choise 1>",
-        choice2: "<choise 2>",
-        choice3: "<choise 3>",
-        choice4: "<choise 4>",
+        questions: "how old is the internet ?",
+        choice1: "<10 yr>",
+        choice2: "<20 years>",
+        choice3: "<30 years>",
+        choice4: "<40 years>",
         answer: 4
     },
 
     {
-        questions: "inside 5is A question",
-        choice1: "<choise 1>",
-        choice2: "<choise 2>",
-        choice3: "<choise 3>",
-        choice4: ",choise 4>",
+        questions: "where is the text changed ?",
+        choice1: "<html>",
+        choice2: "<css>",
+        choice3: "<java>",
+        choice4: "<ima>",
         answer: 2
     }
 ];
