@@ -1,15 +1,16 @@
 const question = document.getElementById("question");
 const choices = document.querySelectorAll(".choice-text");
-
-
+const wrong = document.getElementById("wrong");
+var timerInterval;
 let currentquetion = [];
 let acceptinganswers = false;
 let score = 0;
 let questioncounter = 0;
 let availablequestions = [
 
+
     {
-        questions: "inside 1 is a question",
+        questions: "what is the ",
         choice1: "<choise 1>",
         choice2: "<choise 2>",
         choice3: "<choise 3>",
@@ -79,7 +80,7 @@ var secondsLeft = 15;
 
 function setTime() {
     // Sets interval in variable
-    var timerInterval = setInterval(function () {
+     timerInterval = setInterval(function () {
         secondsLeft--;
         timeEl.textContent = secondsLeft + " seconds left till next question.";
         if (secondsLeft === 0) {
@@ -152,10 +153,20 @@ choices.forEach(choice => {
         // acceptinganswers = false;
         const selectedchoice = e.target;
         const selectedanswer = selectedchoice.dataset["number"];
-  
+         if(selectedanswer === availablequestions[questioncounter].answer){
+            score+=2
+            wrong.innerText = "true"
+         }else{
+            wrong.innerText = "wrong"  
+            secondsLeft -=2
+
+         }
         if (questioncounter < availablequestions.length - 1) {
             questioncounter++
             getnewquestion();
+        }else{
+            clearInterval(timerInterval);  
+            localStorage.setItem("score",score+secondsLeft)
         }
     });
 });
