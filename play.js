@@ -28,7 +28,7 @@ let availablequestions = [
     },
 
     {
-        questions: "when is your header ?",
+        questions: "where is your header ?",
         choice1: "< on your css>",
         choice2: "<on your html>",
         choice3: "<on your java>",
@@ -37,7 +37,7 @@ let availablequestions = [
     },
 
     {
-        questions: "how old is the internet ?",
+        questions: "how old is the us ?",
         choice1: "<10 yr>",
         choice2: "<20 years>",
         choice3: "<30 years>",
