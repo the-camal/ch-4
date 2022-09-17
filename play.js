@@ -76,7 +76,7 @@ var timeEl = document.querySelector(".time");
 // Selects element by id
 var mainEl = document.getElementById("main");
 
-var secondsLeft = 15;
+var secondsLeft = 80;
 
 function setTime() {
     // Sets interval in variable
